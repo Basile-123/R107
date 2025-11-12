@@ -1,0 +1,5 @@
+jour=int(input("donne les jours: "))
+heure=int(input("donne les heures: "))
+minutes=int(input("donne les minutes: "))
+minutes_total=(((jour*24)*60)+heure*60+minutes)
+print(minutes_total)
